@@ -1,22 +1,22 @@
 {
-  "name": "natours",
-  "version": "1.0.0",
-  "description": "Holiday Sit",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/timmlaxton/nature.git"
-  },
-  "author": "Tim Laxton",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/timmlaxton/nature/issues"
-  },
-  "homepage": "https://github.com/timmlaxton/nature#readme",
-  "devDependencies": {
-    "node-sass": "^6.0.0"
-  }
+	"name": "natours",
+	"version": "1.0.0",
+	"description": "Holiday Sit",
+	"main": "index.js",
+	"scripts": {
+		"compile:sass": "node-sass sass/main.scss css/style.css -w"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/timmlaxton/nature.git"
+	},
+	"author": "Tim Laxton",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/timmlaxton/nature/issues"
+	},
+	"homepage": "https://github.com/timmlaxton/nature#readme",
+	"devDependencies": {
+		"node-sass": "^6.0.0"
+	}
 }
